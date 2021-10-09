@@ -258,12 +258,15 @@ ul.nostyle i {
   color: #000;
 }
 #hero-banner {
-  background: #f7f7f7 url("../images/banner/bg1.png") no-repeat 92% bottom;
+  background: #f7f7f7 url("../images/banner.jpg") no-repeat 100% center;
+  background-size: cover;
 }
 #hero-banner h2 {
+  font-size: 60px;
   margin-top: 180px;
-  font-size: 39px;
-  line-height: 49px;
+  margin-bottom: 30px;
+  color: goldenrod;
+  text-shadow: 0 0 10px black;
 }
 #hero-banner.banner-inner h2 > span {
   color: #45aed6;
