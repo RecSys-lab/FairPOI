@@ -200,7 +200,7 @@ ul.nostyle i {
   #main-nav.navbar-default .navbar-nav > li.active > a,
   #main-nav.navbar-default .navbar-nav > li.open > a,
   #main-nav.navbar-default .navbar-nav > li:hover > a {
-    color: #62bdf0;
+    color: #0288d1;
   }
   #main-nav.navbar-default .dropdown-menu {
     padding: 0 20px;
@@ -373,12 +373,12 @@ ul.nostyle i {
   display: block;
   padding: 7px 15px;
   margin: 0px 2px;
-  color: #62bdf0;
+  color: #0288d1;
   position: relative;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-  background: #62bdf0;
+  background: #0288d1;
   color: #ffffff;
 }
 #portfolio .portfolio-items {
@@ -405,7 +405,7 @@ ul.nostyle i {
 #portfolio .portfolio-item .portfolio-item-inner h4 {
   font-weight: 400;
   font-size: 16px;
-  color: #62bdf0;
+  color: #0288d1;
 }
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
   opacity: 0;
@@ -658,7 +658,7 @@ ul.nostyle i {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #62bdf0;
+  background: #0288d1;
   -moz-transform: skewY(-3deg);
   -o-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
@@ -719,7 +719,7 @@ ul.nostyle i {
   margin: 15px 0;
 }
 .features .media.service-box .pull-left > i {
-  color: #62bdf0;
+  color: #0288d1;
   /* border: 4px solid #fff; */
 }
 .features .media.service-box {
@@ -792,7 +792,7 @@ ul.nostyle i {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #62bdf0;
+  background: #0288d1;
   -moz-transform: skewY(-3deg);
   -o-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
@@ -885,7 +885,7 @@ ul.nostyle i {
   color: #ffffff;
 }
 #pricing ul.pricing.featured li.plan-header {
-  background: #62bdf0;
+  background: #0288d1;
   border-bottom: 2px solid #429dd0;
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
