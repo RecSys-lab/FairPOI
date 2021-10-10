@@ -12,11 +12,10 @@
     <link href="css/animate.min.css" rel="stylesheet"> 
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">   
-    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
 </head> 
 
 <body id="home">
-
     <header id="header">
         <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
             <div class="container">
@@ -126,36 +125,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 wow fadeInDown">
-                    <table class="eval-table" data-sortable>
-                        <thead>
-                            <tr>
-                                <th>Metric1</th>
-                                <th>Metric2</th>
-                                <th>Metric3</th>
-                                <th>Metric4</th>
-                                <th>Metric5</th>
-                                <th>Metric6</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>value1</td>
-                                <td>value2</td>
-                                <td>value3</td>
-                                <td>value4</td>
-                                <td>value5</td>
-                                <td>value6</td>
-                            </tr>
-                            <tr>
-                                <td>value1</td>
-                                <td>value2</td>
-                                <td>value3</td>
-                                <td>value4</td>
-                                <td>value5</td>
-                                <td>value6</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div id="table1Wrapper"></div>
                 </div>
             </div>
         </div>
@@ -235,7 +205,7 @@
         <div class="container">
             <div class="section-header">
             <h2 class="section-title wow fadeInDown">Citation</h2>
-            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+            <p class="wow fadeInDown">You can cite our article using the reference text below:</p>
         </div>
             <div class="row">
                 <div class="col-md-8">
@@ -243,22 +213,17 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <blockquote>                                    
-                                    @article{rahmani2021contextsPOI,
-                                        author =  {Hossein A. Rahmani, Mohammad Aliannejadi, Mitra Baratchi, Fabio Crestani},
-                                        title = {A Systematic Analysis on the Impact of Contextual Information on Point-of-Interest Recommendation},
-                                        journal = {XXX},
-                                        volume = {XXX},
-                                        year = {2021},
-                                        url = {https://arxiv.org/abs/XXX},
-                                        archivePrefix = {arXiv},
-                                        eprint =  {XXX}
-                                    }
+                                    <span>@article{ rahmani2021contextsPOI,</span><br>
+                                    <span>author =  {Hossein A. Rahmani, Mohammad Aliannejadi, Mitra Baratchi, Fabio Crestani},</span><br>
+                                    <span>title = {A Systematic Analysis on the Impact of Contextual Information on Point-of-Interest Recommendation},</span><br>
+                                    <span>journal = {XXX},</span><br>
+                                    <span>volume = {XXX},</span><br>
+                                    <span>year = {2021},</span><br>
+                                    <span>url = {https://arxiv.org/abs/XXX},</span><br>
+                                    <span>archivePrefix = {arXiv},</span><br>
+                                    <span>eprint =  {XXX}</span><br>
+                                    <span>}</span>
                                 </blockquote>
-                            </div>
-                        </div>
-                        <div class="row"> 
-                            <div class="col-xs-12">
-                                <h5>Citation</h5>
                             </div>
                         </div>
                     </div>
@@ -314,5 +279,9 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom-scripts.js"></script>
+    <!-- Importing tables -->
+    <script type="text/javascript">
+        $("#table1Wrapper").load('tables/table1.html');
+    </script>
 </body>
 </html>
