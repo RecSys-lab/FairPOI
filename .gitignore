@@ -6,3 +6,21 @@ dataProcess/.idea/dataProcess.iml
 dataProcess/.idea/modules.xml
 dataProcess/.idea/misc.xml
 dataProcess/.idea/vcs.xml
+results/Gowalla_item_fairness_10.txt
+results/Gowalla_item_fairness_al.txt
+results/Gowalla_logs.zip
+results/Gowalla_Test_1.png
+results/Gowalla_Test_2.png
+results/Gowalla_user_groups_results.txt
+results/ItemGroups_Gowalla.png
+results/Screenshot 2021-10-11 at 22.42.29.png
+results/Val1.png
+results/Val2.png
+results/Yelp_item_fairness_10.txt
+results/Yelp_item_fairness_all.txt
+results/Yelp_ItemGroups.png
+results/Yelp_logs.zip
+results/Yelp_RS1.png
+results/Yelp_RS2.png
+results/Yelp_UserItemKNN_count.png
+results/Yelp_user_groups_results.txt
