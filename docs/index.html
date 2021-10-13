@@ -126,15 +126,17 @@
             <div class="row">
                 <div class="col-sm-12 wow fadeInDown">
                     <div class="tableTab">
-                        <button class="tabLinks active" onclick="tabHandler(event, 'Table1')">Table1</button>
+                        <button class="tabLinks" onclick="tabHandler(event, 'Table1')" id="defaultOpenTableTab">Table1</button>
                         <button class="tabLinks" onclick="tabHandler(event, 'Table2')">Table2</button>
                     </div>
                     <div id="Table1" class="tabContent">
-                        <h3>Table1</h3>
+                        <h4>Table1</h4>
+                        <br />
                         <div id="table1Wrapper"></div>
                     </div>
                     <div id="Table2" class="tabContent">
-                        <h3>Table2</h3>
+                        <h4>Table2</h4>
+                        <br />
                         <div id="table2Wrapper"></div>
                     </div>                    
                 </div>
@@ -294,6 +296,10 @@
     <!-- Importing tables -->
     <script type="text/javascript">
         $("#table1Wrapper").load('tables/table1.html');
+    </script>
+    <!-- Default opened table tab -->
+    <script>
+        document.getElementById("defaultOpenTableTab").click();
     </script>
 </body>
 </html>
