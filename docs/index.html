@@ -125,7 +125,18 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 wow fadeInDown">
-                    <div id="table1Wrapper"></div>
+                    <div class="tableTab">
+                        <button class="tabLinks active" onclick="tabHandler(event, 'Table1')">Table1</button>
+                        <button class="tabLinks" onclick="tabHandler(event, 'Table2')">Table2</button>
+                    </div>
+                    <div id="Table1" class="tabContent">
+                        <h3>Table1</h3>
+                        <div id="table1Wrapper"></div>
+                    </div>
+                    <div id="Table2" class="tabContent">
+                        <h3>Table2</h3>
+                        <div id="table2Wrapper"></div>
+                    </div>                    
                 </div>
             </div>
         </div>
@@ -278,6 +289,7 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/tabHandler.js"></script>
     <script src="js/custom-scripts.js"></script>
     <!-- Importing tables -->
     <script type="text/javascript">
