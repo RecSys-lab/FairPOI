@@ -125,19 +125,31 @@
             <div class="row">
                 <div class="col-sm-12 wow fadeInDown">
                     <div class="tableTab">
-                        <button class="tabLinks" onclick="tabHandler(event, 'Table1')" id="defaultOpenTableTab">Table1</button>
-                        <button class="tabLinks" onclick="tabHandler(event, 'Table2')">Table2</button>
+                        <button class="tabLinks" onclick="tabHandler(event, 'GowallaTest')" id="defaultOpenTableTab">Gowalla (Test)</button>
+                        <button class="tabLinks" onclick="tabHandler(event, 'GowallaValidation')">Gowalla (Validation)</button>
+                        <button class="tabLinks" onclick="tabHandler(event, 'YelpTest')">Yelp (Test)</button>
+                        <button class="tabLinks" onclick="tabHandler(event, 'YelpValidation')">Yelp (Validation)</button>
                     </div>
-                    <div id="Table1" class="tabContent">
-                        <h4>Table1</h4>
+                    <div id="GowallaTest" class="tabContent">
+                        <h4>Gowalla (Test)</h4>
                         <br />
-                        <div id="table1Wrapper"></div>
+                        <div id="GowallaTestWrapper"></div>
                     </div>
-                    <div id="Table2" class="tabContent">
-                        <h4>Table2</h4>
+                    <div id="GowallaValidation" class="tabContent">
+                        <h4>Gowalla (Validation)</h4>
                         <br />
-                        <div id="table2Wrapper"></div>
-                    </div>                    
+                        <div id="GowallaValidationWrapper"></div>
+                    </div>
+                    <div id="YelpTest" class="tabContent">
+                        <h4>Yelp (Test)</h4>
+                        <br />
+                        <div id="YelpTestWrapper"></div>
+                    </div>
+                    <div id="YelpValidation" class="tabContent">
+                        <h4>Yelp (Validation)</h4>
+                        <br />
+                        <div id="YelpValidationWrapper"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -296,8 +308,10 @@
     <script src="js/custom-scripts.js"></script>
     <!-- Importing tables -->
     <script type="text/javascript">
-        $("#table1Wrapper").load('tables/table1.html');
-        $("#table2Wrapper").load('tables/table1.html');
+        $("#GowallaTestWrapper").load('tables/GowallaTest.html');
+        $("#GowallaValidationWrapper").load('tables/GowallaValidation.html');
+        $("#YelpTestWrapper").load('tables/YelpTest.html');
+        $("#YelpValidationWrapper").load('tables/YelpValidation.html');
     </script>
     <!-- Default opened table tab -->
     <script>
