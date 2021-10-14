@@ -76,7 +76,7 @@ def main():
     KDE.precompute_kernel_parameters(sparse_training_matrix, poi_coos)
     AMC.build_location_location_transition_graph(sorted_training_check_ins)
 
-    result_out = open("./result/gis14_top_" + str(top_k) + ".txt", 'w')
+    result_out = open("./result/Yelp_LORE_top_" + str(top_k) + ".txt", 'w')
 
     all_uids = list(range(user_num))
     all_lids = list(range(poi_num))
@@ -105,7 +105,7 @@ def main():
 
 
 if __name__ == '__main__':
-    data_dir = "../data/"
+    data_dir = "../../datasets/Gowalla/"
 
     size_file = data_dir + "Gowalla_data_size.txt"
     check_in_file = data_dir + "Gowalla_checkins.txt"
