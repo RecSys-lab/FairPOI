@@ -1028,6 +1028,10 @@ th {
 
 /* Tabs */
 
+.tableWrapper {
+  overflow-x: scroll;
+}
+
 .tableTab {
   overflow: hidden;
   border: 1px solid #ccc;
