@@ -25,3 +25,7 @@ results/Yelp_RS2.png
 results/Yelp_UserItemKNN_count.png
 results/Yelp_user_groups_results.txt
 models/LORE/result/Yelp_LORE_top_100.txt
+results/Gowalla_Val1.png
+results/Gowalla_Val2.png
+results/Yelp_Val_Test_1.png
+results/Yelp_Val_Test_2.png
