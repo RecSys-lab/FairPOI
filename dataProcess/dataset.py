@@ -36,7 +36,7 @@ def to_binary(sample, new_path):
 if __name__ == '__main__':
     dir_path = "../datasets/"
     format = ".txt"
-    datasets = ["Gowalla", "Yelp"]
+    datasets = ["Yelp"]
     splits = ["train", "test", "tune"]
 
     # iterate over datasets
@@ -45,7 +45,6 @@ if __name__ == '__main__':
         new_dataset = mk_dir(dataset=dataset)
         # iterate over different split of dataset
         for split in splits:
-            #
             data_path = dataset_path(dir_path=dir_path, dataset=dataset, split=split, format=format)
             #
             new_dataset_path = dataset_path(dir_path=dir_path, dataset=new_dataset, split=split, format=format)
