@@ -1043,13 +1043,14 @@ th {
 }
 
 .tableTab button {
-  float: left;
   border: none;
   outline: none;
+  width: 100%;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 14px;
+  font-weight: 700;
   transition: 0.3s;
-  padding: 14px 16px;
+  padding: 14px 5px;
   background-color: inherit;
 }
 
