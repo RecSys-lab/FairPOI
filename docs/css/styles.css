@@ -1033,7 +1033,7 @@ th {
 /* Tabs */
 
 .tableWrapper {
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .tableTab {
