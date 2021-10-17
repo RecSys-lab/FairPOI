@@ -1025,6 +1025,10 @@ th {
   text-align: center;
   background-color: #008bd6;
 }
+.tableFirstColumn {
+  font-weight: 800;
+  background-color: rgba(74, 154, 197, 0.2);
+}
 
 /* Tabs */
 
