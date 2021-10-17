@@ -129,6 +129,8 @@
                         <button class="tabLinks" onclick="tabHandler(event, 'GowallaValidation')">Gowalla (Validation)</button>
                         <button class="tabLinks" onclick="tabHandler(event, 'YelpTest')">Yelp (Test)</button>
                         <button class="tabLinks" onclick="tabHandler(event, 'YelpValidation')">Yelp (Validation)</button>
+                        <!-- Item Fairness -->
+                        <button class="tabLinks" onclick="tabHandler(event, 'GowallaItemFairness')">Gowalla Item Fairness</button>
                     </div>
                     <div id="GowallaTest" class="tabContent">
                         <div id="GowallaTestWrapper"></div>
@@ -141,6 +143,10 @@
                     </div>
                     <div id="YelpValidation" class="tabContent">
                         <div id="YelpValidationWrapper"></div>
+                    </div>
+                    <!-- Item Fairness -->
+                    <div id="GowallaItemFairness" class="tabContent">
+                        <div id="GowallaItemFairnessWrapper"></div>
                     </div>
                 </div>
             </div>
@@ -304,6 +310,7 @@
         $("#GowallaValidationWrapper").load('tables/GowallaValidation.html');
         $("#YelpTestWrapper").load('tables/YelpTest.html');
         $("#YelpValidationWrapper").load('tables/YelpValidation.html');
+        $("#GowallaItemFairnessWrapper").load('tables/item-fairness/GowallaItemFairness.html');
     </script>
     <!-- Default opened table tab -->
     <script>
