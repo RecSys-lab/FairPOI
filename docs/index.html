@@ -129,8 +129,12 @@
                         <button class="tabLinks" onclick="tabHandler(event, 'GowallaValidation')">Gowalla (Validation)</button>
                         <button class="tabLinks" onclick="tabHandler(event, 'YelpTest')">Yelp (Test)</button>
                         <button class="tabLinks" onclick="tabHandler(event, 'YelpValidation')">Yelp (Validation)</button>
+                        <!-- User Fairness -->
+                        <button class="tabLinks" onclick="tabHandler(event, 'GowallaUserFairness')">Gowalla User Fairness</button>
+                        <button class="tabLinks" onclick="tabHandler(event, 'YelpUserFairness')">Yelp User Fairness</button>
                         <!-- Item Fairness -->
                         <button class="tabLinks" onclick="tabHandler(event, 'GowallaItemFairness')">Gowalla Item Fairness</button>
+                        <button class="tabLinks" onclick="tabHandler(event, 'YelpItemFairness')">Yelp Item Fairness</button>
                     </div>
                     <div id="GowallaTest" class="tabContent">
                         <div id="GowallaTestWrapper"></div>
@@ -148,9 +152,15 @@
                     <div id="GowallaUserFairness" class="tabContent">
                         <div id="GowallaUserFairnessWrapper"></div>
                     </div>
+                    <div id="YelpUserFairness" class="tabContent">
+                        <div id="YelpUserFairnessWrapper"></div>
+                    </div>
                     <!-- Item Fairness -->
                     <div id="GowallaItemFairness" class="tabContent">
                         <div id="GowallaItemFairnessWrapper"></div>
+                    </div>
+                    <div id="YelpItemFairness" class="tabContent">
+                        <div id="YelpItemFairnessWrapper"></div>
                     </div>
                 </div>
             </div>
@@ -315,7 +325,9 @@
         $("#YelpTestWrapper").load('tables/YelpTest.html');
         $("#YelpValidationWrapper").load('tables/YelpValidation.html');
         $("#GowallaItemFairnessWrapper").load('tables/item-fairness/GowallaItemFairness.html');
+        $("#YelpItemFairnessWrapper").load('tables/item-fairness/YelpItemFairness.html');
         $("#GowallaUserFairnessWrapper").load('tables/user-fairness/GowallaUserFairness.html');
+        $("#YelpUserFairnessWrapper").load('tables/user-fairness/YelpUserFairness.html');
     </script>
     <!-- Default opened table tab -->
     <script>
