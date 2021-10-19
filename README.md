@@ -24,13 +24,13 @@ You will need below libraries to be installed before running the application:
 - NumPy >= 1.19
 - SciPy >= 1.6
 
-## ⚙️ Team
+<!-- ## ⚙️ Team
 
 We are a diverse group of individuals who bring perspectives to the state-of-the-art projects:
 
 | <a href="https://github.com/yasdel"><img src="https://yasdel.github.io/images/yashar_avator.jpg" width="130"></a> | <a href="https://github.com/rahmanidashti"><img src="https://github.com/rahmanidashti.png?size=130"></a> | <a href="https://github.com/alitourani"><img src="https://github.com/alitourani.png?size=130"></a> | <a href="https://www.linkedin.com/in/ehsan-naghiaei"><img src="https://github.com/RecSys-lab/FairPOI/blob/main/docs/images/team/mohammadmehdi_naghiaei.jpg" width="130"></a> |
 | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Yashar Deldjoo](mailto:yashar.deldjoo@poliba.it "yashar.deldjoo@poliba.it")                                      | [Hossein A. Rahmani](mailto:rahmanidashti@alumni.znu.ac.ir "rahmanidashti@alumni.znu.ac.ir")             | [Ali Tourani](mailto:tourani@msc.guilan.ac.ir "tourani@msc.guilan.ac.ir")                          | [Mohammadmehdi Naghiaei](mailto:naghiaei@usc.edu "naghiaei@usc.edu")                                                                                                         |
+| [Yashar Deldjoo](mailto:yashar.deldjoo@poliba.it "yashar.deldjoo@poliba.it")                                      | [Hossein A. Rahmani](mailto:rahmanidashti@alumni.znu.ac.ir "rahmanidashti@alumni.znu.ac.ir")             | [Ali Tourani](mailto:tourani@msc.guilan.ac.ir "tourani@msc.guilan.ac.ir")                          | [Mohammadmehdi Naghiaei](mailto:naghiaei@usc.edu "naghiaei@usc.edu")                                                                                                         | -->
 
 ## 📝 Citation
 
