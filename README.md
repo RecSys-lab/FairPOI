@@ -32,7 +32,7 @@ We are a diverse group of individuals who bring perspectives to the state-of-the
 | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Yashar Deldjoo](mailto:yashar.deldjoo@poliba.it "yashar.deldjoo@poliba.it")                                      | [Hossein A. Rahmani](mailto:rahmanidashti@alumni.znu.ac.ir "rahmanidashti@alumni.znu.ac.ir")             | [Ali Tourani](mailto:tourani@msc.guilan.ac.ir "tourani@msc.guilan.ac.ir")                          | [Mohammadmehdi Naghiaei](mailto:naghiaei@usc.edu "naghiaei@usc.edu")                                                                                                         | -->
 
-## 📝 Citation
+<!-- ## 📝 Citation
 
 Please cite the following [paper](https://arxiv.org/):
 
@@ -47,4 +47,4 @@ Please cite the following [paper](https://arxiv.org/):
     archivePrefix = {arXiv},
     eprint = {XXX}
 }
-```
+``` -->
