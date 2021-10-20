@@ -14,7 +14,7 @@ By analyzing the performance of various algorithms on three real-world POI datas
 - The larger percentage of less active users receive imprecisely tailored recommendations
 - Most recommender systems recommend popular locations or items contributing to item unfairness
 
-⚠️ Note: Visit the web-page at https://recsys-lab.github.io/FairPOI/ for full table results.
+⚠️ Note: Visit the [web-page](https://recsys-lab.github.io/FairPOI/ "web-page") for full table results.
 
 ## ☑️ Prerequisites for re-generating the results
 
