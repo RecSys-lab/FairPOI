@@ -1,0 +1,1 @@
+VAECF_scores.npy filter=lfs diff=lfs merge=lfs -text
