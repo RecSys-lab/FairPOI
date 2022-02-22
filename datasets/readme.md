@@ -1,38 +1,31 @@
 # Datasets
 
-Dataset | #user (U) | #POI (P) | #check-ins (C) | #social (S) | #category | <img src="https://render.githubusercontent.com/render/math?math=C/U"> | <img src="https://render.githubusercontent.com/render/math?math=C/P"> | <img src="https://render.githubusercontent.com/render/math?math=C/(U*P)">
---- | --- | --- | --- |--- |--- |--- |--- |---
-Yelp | - | - | - | - | - | - | - | -
-Gowalla | - | - | - | - | - | - | - | -
-
-## Gowalla
-
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax">Dataset</th>
-    <th class="tg-baqh" colspan="6">Training Data</th>
-    <th class="tg-0lax" colspan="3">Validation Data</th>
-    <th class="tg-0lax" colspan="5">Test Data</th>
+    <th class="tg-0lax" style="text-align:center">Dataset</th>
+    <th class="tg-baqh" colspan="6" style="text-align:center">Training Data</th>
+    <th class="tg-0lax" colspan="3" style="text-align:center">Validation Data</th>
+    <th class="tg-0lax" colspan="5" style="text-align:center">Test Data</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax">Characteristics</td>
-    <td class="tg-0lax">#users</td>
-    <td class="tg-0lax">#POIs</td>
-    <td class="tg-0lax">#unique checkins</td>
-    <td class="tg-0lax">max checkin</td>
-    <td class="tg-0lax">min checkin</td>
-    <td class="tg-0lax">global mean</td>
-    <td class="tg-0lax">#users</td>
-    <td class="tg-0lax">#POIs</td>
-    <td class="tg-0lax">#<span style="font-weight:400;font-style:normal">unique checkins</span></td>
-    <td class="tg-0lax">#users</td>
-    <td class="tg-0lax">#POIs</td>
-    <td class="tg-0lax">#unique checkins</td>
-    <td class="tg-0lax">#unknown users</td>
-    <td class="tg-0lax">#unknown POIs</td>
+    <td class="tg-0lax"><b>Characteristics</b></td>
+    <td class="tg-0lax"><b>#users</b></td>
+    <td class="tg-0lax"><b>#POIs</b></td>
+    <td class="tg-0lax"><b>#unique checkins</b></td>
+    <td class="tg-0lax"><b>max checkin</b></td>
+    <td class="tg-0lax"><b>min checkin</b></td>
+    <td class="tg-0lax"><b>global mean</b></td>
+    <td class="tg-0lax"><b>#users</b></td>
+    <td class="tg-0lax"><b>#POIs</b></td>
+    <td class="tg-0lax"><b>#<span style="font-weigh</b>t:400;font-style:normal">unique checkins</span></td>
+    <td class="tg-0lax"><b>#users</b></td>
+    <td class="tg-0lax"><b>#POIs</b></td>
+    <td class="tg-0lax"><b>#unique checkins</b></td>
+    <td class="tg-0lax"><b>#unknown users</b></td>
+    <td class="tg-0lax"><b>#unknown POIs</b></td>
   </tr>
   <tr>
     <td class="tg-0lax">Gowalla</td>
@@ -68,5 +61,6 @@ Gowalla | - | - | - | - | - | - | - | -
     <td class="tg-0lax">0</td>
     <td class="tg-0lax">0</td>
   </tr>
+
 </tbody>
 </table>
