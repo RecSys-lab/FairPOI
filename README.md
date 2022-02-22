@@ -20,9 +20,15 @@ By analyzing the performance of various algorithms on three real-world POI datas
 
 You will need below libraries to be installed before running the application:
 
-- Python >= 3.4
+- Python >= 3.7
 - NumPy >= 1.19
-- SciPy >= 1.6
+- SciPy >= 1.3
+
+You can also run the command below in the root directory to get all of them installed:
+
+```python
+pip install -r requirements.txt
+```
 
 ## ⚙️ Team
 
