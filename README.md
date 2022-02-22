@@ -1,22 +1,20 @@
 # The Unfairness of Active Users and Popularity Bias in Point-of-Interest Recommendation
 
-![The Unfairness of Active Users and Popularity Bias in Point-of-Interest Recommendation](https://github.com/RecSys-lab/FairPOI/blob/main/docs/images/banner.jpg "Fair PoI")
+![The Unfairness of Active Users and Popularity Bias in Point-of-Interest Recommendation](docs/images/banner.jpg "Fair PoI")
 
-This project focuses on point of interest (POI) recommendation and state-of-
-the-art algorithms in POI domain regarding the trade-offs between accuracy of
-personalizing and fairness in recommendations to both users and providers.
+This project focuses on the point of interest (POI) recommendation and state-of-the-art algorithms in the POI domain regarding the trade-offs between the accuracy of personalizing and fairness in recommendations to both users and providers.
 
 ## 💡 Evaluation Results
 
 By analyzing the performance of various algorithms on three real-world POI datasets, we found that:
 
-- State-of-the-art algorithms work against user fairness by favoring a small percentage of highly active users with superior recommendations
-- The larger percentage of less active users receive imprecisely tailored recommendations
-- Most recommender systems recommend popular locations or items contributing to item unfairness
+- State-of-the-art algorithms work against user fairness by favoring a small percentage of highly active users with superior recommendations.
+- A more significant percentage of less active users receive imprecisely tailored recommendations.
+- Most recommender systems recommend popular locations or items contributing to item unfairness.
 
-⚠️ Note: Visit the [web-page](https://recsys-lab.github.io/FairPOI/ "web-page") for full table results.
+⚠️ Note: Visit our [web page](https://recsys-lab.github.io/FairPOI/ "web page") for full table results.
 
-## ☑️ Prerequisites for re-generating the results
+## ☑️ Re-generating the results
 
 You will need below libraries to be installed before running the application:
 
