@@ -79,11 +79,11 @@ hr {
 }
 .btn.btn-primary {
   font-weight: 800;
-  background: #343434;
+  background: #429dd0;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #429dd0;
+  background: #ff8f00;
 }
 .column-title {
   margin-top: 0;
