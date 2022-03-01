@@ -38,17 +38,15 @@ We are a diverse group of individuals who bring perspectives to the state-of-the
 
 ## 📝 Citation
 
-Please cite the following [paper](https://arxiv.org/):
+Please cite the following [paper](https://arxiv.org/abs/2202.13307):
 
 ```
-@article{rahmani2022fairPOI,
-    author = {Saeed Rahmani, Yashar Deldjoo, Ali Tourani, and Mohammadmehdi Naghiaei},
-    title = {The Unfairness of Active Users and Popularity Bias in Point-of-Interest Recommendation},
-    journal = {ECIR 2022},
-    volume = {XXX},
-    year = {2021},
-    url = {https://arxiv.org/abs/XXX},
-    archivePrefix = {arXiv},
-    eprint = {XXX}
+@misc{rahmani2022unfairness,
+      title={The Unfairness of Active Users and Popularity Bias in Point-of-Interest Recommendation},
+      author={Hossein A. Rahmani and Yashar Deldjoo and Ali Tourani and Mohammadmehdi Naghiaei},
+      year={2022},
+      eprint={2202.13307},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
 }
 ```
